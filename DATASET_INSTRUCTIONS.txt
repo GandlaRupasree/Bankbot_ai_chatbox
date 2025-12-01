@@ -1,0 +1,8 @@
+Dataset note:
+I detected your uploaded dataset at: /mnt/data/bank_chatbot_dataset_large (2) (1).csv
+
+To use the training scripts below, place your dataset at this path (or update the path in the scripts):
+/mnt/data/bank_chatbot_project/data/bank_chatbot_dataset.csv
+
+If you want the project to use the exact uploaded file without moving it, edit the variable DATASET_PATH in train_nlu.py and other scripts to:
+/mnt/data/bank_chatbot_dataset_large (2) (1).csv
