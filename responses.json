@@ -1,6 +1,0 @@
-{
-  "check_balance": "To check your balance, please authenticate and provide your account number or use netbanking/mobile app.",
-  "apply_loan": "You can apply for a loan by visiting our loans section. I can help start the application. What type of loan?",
-  "find_atm": "Share your city or allow location access and I will find nearby ATMs.",
-  "fallback": "I'm sorry \u2014 I don't understand. Can you rephrase or type 'help' to see common questions?"
-}
