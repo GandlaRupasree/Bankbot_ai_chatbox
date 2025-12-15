@@ -1,0 +1,104 @@
+Slide 1: Title – BankBot AI Chatbot for Banking FAQs
+
+This slide introduces the project titled BankBot AI Chatbot for Banking FAQs. It briefly highlights the team members and sets the context for developing an intelligent chatbot solution aimed at the banking domain. The focus is on leveraging AI to automate customer interactions and improve service efficiency.
+
+---
+
+## Slide 2: Project Statement – Intelligent Banking Chatbot
+
+This slide explains the core idea of the project. The objective is to design an intelligent chatbot that can handle common banking-related queries, thereby reducing dependency on manual customer support. The system combines rule-based logic with machine learning techniques to ensure accuracy, scalability, and continuous learning. It is designed to be accessible through a web interface and extendable to mobile platforms.
+
+---
+
+## Slide 3: Key Outcomes
+
+This slide outlines the expected results of the project:
+
+* **24/7 AI Support:** The chatbot provides continuous assistance without time constraints.
+Intent Handling: It understands and processes common banking requests like balance enquiry, loan details, card blocking, and branch location.
+Interactive UI: A simple text-based interface enables easy interaction for users.
+Backend Management: A role-based backend supports training data updates and chatbot improvement.
+
+---
+
+## Slide 4: Core Modules – Overview
+
+This slide gives an overview of the major building blocks of the chatbot system. Each module plays a specific role in understanding user input, managing conversations, displaying responses, and maintaining system performance.
+
+---
+
+## Slide 5: Core Module 1 – Intent & Entity Recognition
+
+This slide explains how Natural Language Understanding (NLU) is used to identify user intent and extract entities. Intents such as “Check Balance” or “Loan Enquiry” are defined, while entities like account type or location are extracted. Tools like spaCy or Rasa NLU are used to train the model for accurate understanding.
+
+---
+
+## Slide 6: Core Module 2 – Response & Dialogue Management
+
+This slide describes how the chatbot manages conversations. It uses predefined rules and machine learning-based stories to maintain context and flow. Fallback mechanisms handle unknown queries, and escalation to human agents is supported when required.
+
+---
+
+## Slide 7: Core Module 3 – Web Interface & UI
+
+This slide focuses on the user interface. A responsive web-based chat window is developed with features such as chat bubbles, typing animations, and bank branding. The UI ensures smooth interaction and can be extended to platforms like WhatsApp.
+
+---
+
+## Slide 8: Core Module 4 – Admin Panel & Training
+
+This slide explains the admin functionality. Authorized users can upload or edit training data, view user interaction logs, and trigger model retraining. This module enables continuous improvement and system monitoring.
+
+---
+
+## Slide 9: Core Module 5 – Knowledge Base & API Integration
+
+This slide highlights the integration of external APIs and internal databases. Real-time data such as account or branch information can be fetched via APIs, while FAQs and static content are stored in databases like Firebase.
+
+---
+
+## Slide 10: Milestone 1 – Intent & Entity Recognition (Technical Explanation)
+
+This milestone focuses on the Natural Language Understanding (NLU) layer of the chatbot. Banking-related intents such as balance enquiry, loan information, card blocking, and branch location are identified and defined with multiple training examples. Text preprocessing techniques like tokenization, lowercasing, and stop-word removal are applied. NLU frameworks such as Rasa NLU or spaCy are used to train intent classification models, typically based on machine learning algorithms like logistic regression or neural embeddings. Entity extraction is implemented to capture key parameters such as account type, amount, or location using Named Entity Recognition (NER) and slot-filling logic. This milestone ensures accurate interpretation of user inputs and forms the foundation of the chatbot system.
+
+---
+
+## Slide 11: Milestone 2 – Response Handling & Dialogue Flow (Technical Explanation)
+
+This milestone implements the dialogue management layer responsible for maintaining conversational context. Rule-based dialogue policies and machine-learning-driven stories are designed to control conversation flow. Context tracking is achieved using slots and session variables to remember previous user inputs. Fallback mechanisms are configured to handle low-confidence intent predictions or unsupported queries. Chitchat handling is added using predefined responses. The system is tested with multi-turn conversations to validate state transitions, ensuring coherent and natural interactions across different user scenarios.
+
+---
+
+## Slide 12: Milestone 3 – UI Integration & Chat Interface (Technical Explanation)
+
+This milestone focuses on frontend-backend integration. A web-based chat interface is developed using frameworks such as Flask, Streamlit, or React. RESTful APIs or webhook endpoints are created to enable communication between the UI and the chatbot backend. JSON is used for message exchange. Asynchronous request handling ensures real-time responses. Error handling mechanisms are implemented to manage API failures, network issues, and invalid inputs. This milestone validates end-to-end functionality from user input to chatbot response.
+
+---
+
+## Slide 13: Milestone 4 – Admin Panel & Knowledge Base (Technical Explanation)
+
+This milestone implements administrative and data management functionalities. A secure admin panel with role-based authentication is developed to manage intents, entities, and FAQ data. User interaction logs are stored in a database for analysis. The knowledge base is integrated using databases such as Firebase or relational storage. APIs are connected to fetch real-time banking information where applicable. Model retraining triggers are implemented to allow updates without redeploying the entire system. Analytics and data export features support continuous monitoring and improvement of chatbot performance.
+
+---
+
+## Slide 14: Evaluation Criteria
+
+This slide explains how project success is measured across milestones, including intent accuracy, dialogue stability, UI responsiveness, and admin functionality such as logs and analytics access.
+
+---
+
+## Slide 15: System Architecture & Workflow
+
+This slide explains the overall architecture and workflow of the chatbot system. It shows how user input flows from the UI to the NLU engine, dialogue manager, knowledge base, and back to the user as a response.
+
+---
+
+## Slide 16: Conclusion
+
+This slide summarizes the project. The banking chatbot automates customer queries with accurate, real-time responses, enhances user experience through 24/7 availability, and offers a scalable and maintainable solution for modern digital banking support.
+
+---
+
+## Slide 17: Thank You
+
+This slide concludes the presentation and invites questions from the audience.
